@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/codegangsta/cli"
 	"github.com/cggarvey/glass/command"
+	"github.com/codegangsta/cli"
 )
 
 type Command interface {
