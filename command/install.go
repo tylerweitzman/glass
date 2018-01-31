@@ -5,8 +5,8 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/timeglass/glass/_vendor/github.com/codegangsta/cli"
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/codegangsta/cli"
+	"github.com/hashicorp/errwrap"
 )
 
 type Install struct {

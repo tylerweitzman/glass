@@ -7,8 +7,8 @@ import (
 	"os"
 	"runtime"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
-	"github.com/timeglass/glass/_vendor/github.com/kardianos/service"
+	"github.com/hashicorp/errwrap"
+	"github.com/kardianos/service"
 )
 
 var Version = "0.0.0"

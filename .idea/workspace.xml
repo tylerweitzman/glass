@@ -1,0 +1,993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b00574c-1a10-474c-9c38-0b82fafb0943" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/app.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/app_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/autocomplete/bash_autocomplete" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/autocomplete/zsh_autocomplete" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/cli.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/cli_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/command.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/command_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/context.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/context_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/flag.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/flag_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/help.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/help_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/codegangsta/cli/helpers_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/AUTHORS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/INTERNALS.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/example/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/fsevents.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/go-fsnotify/fsevents/fsevents_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/hashicorp/errwrap/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/hashicorp/errwrap/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/hashicorp/errwrap/errwrap.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/hashicorp/errwrap/errwrap_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/.travis.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/doc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/map.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/merge.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/mergo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/mergo_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/testdata/license.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/imdario/mergo/testdata/thing.yml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext_procfs.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext_sysctl.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/osext/osext_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/console.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/example/logging/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/example/runner/runner.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/example/runner/runner.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/example/simple/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/example/stopPause/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/linux_test/Makefile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/linux_test/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/linux_test/systemd/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/linux_test/sysv/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/linux_test/upstart/Dockerfile" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/name_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_darwin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_systemd_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_sysv_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_unix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_upstart_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/mattn/go-isatty/README.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/mattn/go-isatty/doc.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/mattn/go-isatty/isatty_bsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/mattn/go-isatty/isatty_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/github.com/mattn/go-isatty/isatty_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/.gitattributes" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/.gitignore" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/AUTHORS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/CONTRIBUTING.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/CONTRIBUTORS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/LICENSE" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/PATENTS" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/README" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/codereview.cfg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/asm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/asm_plan9_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/asm_plan9_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/const_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/dir_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/env_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/env_unset.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/errors_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/mkall.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/mkerrors.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/mksyscall.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/mksysnum_plan9.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/pwd_go15_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/pwd_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/race.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/race0.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/str.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/syscall.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/syscall_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/syscall_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/zsyscall_plan9_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/zsyscall_plan9_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/plan9/zsysnum_plan9.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_darwin_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_darwin_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_darwin_arm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_darwin_arm64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_dragonfly_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_dragonfly_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_freebsd_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_freebsd_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_freebsd_arm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_linux_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_linux_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_linux_arm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_linux_arm64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_linux_ppc64x.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_netbsd_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_netbsd_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_netbsd_arm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_openbsd_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_openbsd_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/asm_solaris_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/constants.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/creds_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/env_unix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/env_unset.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/export_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/flock.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/flock_linux_32bit.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/gccgo.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/gccgo_c.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/gccgo_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mkall.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mkerrors.sh" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksyscall.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksyscall_solaris.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysctl_openbsd.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_darwin.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_dragonfly.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_freebsd.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_linux.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_netbsd.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mksysnum_openbsd.pl" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/mmap_unix_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/race.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/race0.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/so_solaris.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/sockcmsg_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/sockcmsg_unix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/str.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_bsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_bsd_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_darwin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_darwin_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_darwin_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_darwin_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_darwin_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_dragonfly.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_dragonfly_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_dragonfly_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_freebsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_freebsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_freebsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_freebsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_linux_ppc64x.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_netbsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_netbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_netbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_netbsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_no_getwd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_openbsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_openbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_openbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_solaris.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_solaris_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_unix.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_unix_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_darwin.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_dragonfly.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_freebsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_linux.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_netbsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_openbsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/types_solaris.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_darwin_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_darwin_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_darwin_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_darwin_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_dragonfly_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_dragonfly_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_freebsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_freebsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_freebsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_ppc64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_linux_ppc64le.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_netbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_netbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_netbsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_openbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_openbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zerrors_solaris_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_darwin_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_darwin_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_darwin_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_darwin_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_dragonfly_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_dragonfly_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_freebsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_freebsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_freebsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_linux_ppc64le.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_netbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_netbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_netbsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_openbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_openbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsyscall_solaris_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysctl_openbsd.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_darwin_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_darwin_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_darwin_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_darwin_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_dragonfly_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_dragonfly_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_freebsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_freebsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_freebsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_linux_ppc64le.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_netbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_netbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_netbsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_openbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_openbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/zsysnum_solaris_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_darwin_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_darwin_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_darwin_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_darwin_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_dragonfly_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_dragonfly_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_freebsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_freebsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_freebsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_arm64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_ppc64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_linux_ppc64le.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_netbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_netbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_netbsd_arm.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_openbsd_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_openbsd_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/ztypes_solaris_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/asm.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/asm_windows_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/asm_windows_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/dll_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/env_unset.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/env_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/eventlog.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/exec_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/race.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/race0.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/export_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/key.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/registry_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/syscall.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/value.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/registry/zsyscall_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/security_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/str.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/debug/log.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/debug/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/event.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/eventlog/install.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/eventlog/log.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/eventlog/log_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/example/beep.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/example/install.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/example/main.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/example/manage.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/example/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/go12.c" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/go12.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/go13.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/mgr/config.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/mgr/mgr.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/mgr/mgr_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/mgr/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/security.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/service.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/svc_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/sys_386.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/svc/sys_amd64.s" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/syscall.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/syscall_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/syscall_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/syscall_windows_test.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/zsyscall_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/ztypes_windows.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/ztypes_windows_386.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_vendor/golang.org/x/sys/windows/ztypes_windows_amd64.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/command/client.go" afterPath="$PROJECT_DIR$/command/client.go" />
+      <change beforePath="$PROJECT_DIR$/command/install.go" afterPath="$PROJECT_DIR$/command/install.go" />
+      <change beforePath="$PROJECT_DIR$/glass-daemon/main.go" afterPath="$PROJECT_DIR$/glass-daemon/main.go" />
+      <change beforePath="$PROJECT_DIR$/glass-daemon/timer.go" afterPath="$PROJECT_DIR$/glass-daemon/timer.go" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name=".editorconfig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.editorconfig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="git.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vcs/git.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1830">
+              <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="postinstall" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installers/pkg/scripts/glass/postinstall">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="make.bash" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/installers/pkg/make.bash">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util_test.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glass-daemon/util_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/client.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="timer.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/glass-daemon/timer.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/glass-daemon/main.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="251">
+              <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+              <folding>
+                <element signature="e#14#128#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="install.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/command/install.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding>
+                <element signature="e#17#114#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>snow</find>
+      <find>daemon</find>
+    </findStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.9.3/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_bsd.go" />
+        <option value="$PROJECT_DIR$/command/install.go" />
+        <option value="$PROJECT_DIR$/glass-daemon/main.go" />
+        <option value="$PROJECT_DIR$/command/client.go" />
+        <option value="$PROJECT_DIR$/glass-daemon/timer.go" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1" />
+    <option name="y" value="22" />
+    <option name="width" value="1404" />
+    <option name="height" value="794" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="glass-daemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="installers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="installers" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="installers" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="installers" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="installers" type="462c0819:PsiDirectoryNode" />
+              <item name="pkg" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="glass-daemon" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="glass" type="b2602c69:ProjectViewProjectNode" />
+              <item name="glass" type="462c0819:PsiDirectoryNode" />
+              <item name="vcs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="glass" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$USER_HOME$/builds" />
+    </configuration>
+    <configuration name="build" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="glass" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$USER_HOME$/builds" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="glass" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="22" width="1440" height="830" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26466382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32789117" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32904148" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vcs/git.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/scripts/glass/postinstall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glass-daemon/util_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/install.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vcs/git.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/scripts/glass/postinstall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glass-daemon/util_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="37" lean-forward="false" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/install.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="e#17#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_darwin.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="54" lean-forward="false" selection-start-line="38" selection-start-column="54" selection-end-line="38" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/gccgo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_unix.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="184" column="11" lean-forward="true" selection-start-line="184" selection-start-column="11" selection-end-line="184" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_bsd.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9">
+          <caret line="298" column="0" lean-forward="false" selection-start-line="298" selection-start-column="0" selection-end-line="298" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#236#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/timeglass.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vcs/git.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1830">
+          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/scripts/glass/postinstall">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installers/pkg/make.bash">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="19" lean-forward="false" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glass-daemon/util_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="33" lean-forward="false" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/install.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding>
+            <element signature="e#17#114#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glass-daemon/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/command/client.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glass-daemon/timer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

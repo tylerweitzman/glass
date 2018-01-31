@@ -10,9 +10,9 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/hashicorp/errwrap"
 
-	daemon "github.com/timeglass/glass/glass-daemon"
+	daemon "github.com/cggarvey/glass/glass-daemon"
 )
 
 var ErrRequestFailed = errors.New("Couldn't reach background service, did you install it using 'glass install'?")

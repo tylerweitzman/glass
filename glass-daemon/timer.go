@@ -6,10 +6,9 @@ import (
 	"log"
 	"time"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
-
-	"github.com/timeglass/glass/config"
-	"github.com/timeglass/snow/monitor"
+	"github.com/hashicorp/errwrap"
+	"github.com/cggarvey/glass/config"
+	"github.com/cggarvey/snow/monitor"
 )
 
 type timerData struct {
