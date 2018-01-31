@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/hashicorp/errwrap"
 )
 
 // returns the system path were all

@@ -10,7 +10,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/hashicorp/errwrap"
 )
 
 var CheckVersionURL = "https://s3-eu-west-1.amazonaws.com/timeglass/version/VERSION?dversion=" + Version

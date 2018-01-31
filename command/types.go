@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/timeglass/glass/_vendor/github.com/codegangsta/cli"
+	"github.com/codegangsta/cli"
 )
 
 type command struct {

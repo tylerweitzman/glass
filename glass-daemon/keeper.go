@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/hashicorp/errwrap"
 )
 
 type Keeper struct {

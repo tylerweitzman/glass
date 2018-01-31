@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/timeglass/glass/_vendor/github.com/codegangsta/cli"
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
-	"github.com/timeglass/glass/_vendor/github.com/mattn/go-isatty"
+	"github.com/codegangsta/cli"
+	"github.com/hashicorp/errwrap"
+	"github.com/mattn/go-isatty"
 
 	"github.com/timeglass/glass/config"
 	daemon "github.com/timeglass/glass/glass-daemon"

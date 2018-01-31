@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/timeglass/glass/_vendor/github.com/hashicorp/errwrap"
+	"github.com/hashicorp/errwrap"
 )
 
 type Logger struct {

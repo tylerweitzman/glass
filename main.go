@@ -4,9 +4,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/timeglass/glass/_vendor/github.com/codegangsta/cli"
-
-	"github.com/timeglass/glass/command"
+	"github.com/codegangsta/cli"
+	"github.com/cggarvey/glass/command"
 )
 
 type Command interface {

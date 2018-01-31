@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/timeglass/glass/_vendor/github.com/kardianos/service"
+	"github.com/kardianos/service"
 )
 
 // give some more extensive information about the nature
