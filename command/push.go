@@ -9,9 +9,9 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/mattn/go-isatty"
 
-	"github.com/timeglass/glass/config"
-	daemon "github.com/timeglass/glass/glass-daemon"
-	"github.com/timeglass/glass/vcs"
+	"github.com/cggarvey/glass/config"
+	daemon "github.com/cggarvey/glass/glass-daemon"
+	"github.com/cggarvey/glass/vcs"
 )
 
 type Push struct {

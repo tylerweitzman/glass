@@ -10,9 +10,9 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/hashicorp/errwrap"
 
-	"github.com/timeglass/glass/config"
-	daemon "github.com/timeglass/glass/glass-daemon"
-	"github.com/timeglass/glass/vcs"
+	"github.com/cggarvey/glass/config"
+	daemon "github.com/cggarvey/glass/glass-daemon"
+	"github.com/cggarvey/glass/vcs"
 )
 
 type Status struct {
@@ -79,7 +79,7 @@ func (c *Status) Run(ctx *cli.Context) error {
 	curr, _ := strconv.Atoi(strings.Replace(dinfo["version"].(string), ".", "", 2))
 	recent, _ := strconv.Atoi(strings.Replace(dinfo["newest_version"].(string), ".", "", 2))
 	if curr != 0 && recent > curr {
-		c.Println("A new version is available, please upgrade: https://github.com/timeglass/glass/releases")
+		c.Println("A new version is available, please upgrade: https://github.com/cggarvey/glass/releases")
 	}
 
 	//fetch information on the timer specific to this directory

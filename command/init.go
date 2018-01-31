@@ -7,7 +7,7 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/hashicorp/errwrap"
 
-	"github.com/timeglass/glass/vcs"
+	"github.com/cggarvey/glass/vcs"
 )
 
 type Init struct {
