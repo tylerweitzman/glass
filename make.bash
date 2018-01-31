@@ -10,7 +10,7 @@ fi
 
 function run_build_daemon {
 	echo "building Daemon..."	
-	go build -o $GOPATH/bin/glass-daemon${EXT} -ldflags "-X main.Version `cat VERSION` -X main.Build `date -u +%Y%m%d%H%M%S`" ./glass-daemon
+	go build -o $GOPATH/bin/daemon${EXT} -ldflags "-X main.Version `cat VERSION` -X main.Build `date -u +%Y%m%d%H%M%S`" ./glass-daemon
 }
 
 function run_build_cli {

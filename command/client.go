@@ -10,9 +10,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cggarvey/glass-daemon"
 	"github.com/hashicorp/errwrap"
-)
+	"github.com/cggarvey/daemon"
+
+	)
 
 var ErrRequestFailed = errors.New("Couldn't reach background service, did you install it using 'glass install'?")
 var ErrTimerNotFound = errors.New("Couldn't find timer for this project, did you start one using 'glass init' or 'glass start'?")

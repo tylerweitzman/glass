@@ -11,7 +11,7 @@ import (
 	"github.com/hashicorp/errwrap"
 
 	"github.com/cggarvey/glass/config"
-	daemon "github.com/cggarvey/glass/glass-daemon"
+	daemon "github.com/cggarvey/glass/daemon"
 	"github.com/cggarvey/glass/vcs"
 )
 

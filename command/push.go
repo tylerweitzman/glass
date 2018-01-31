@@ -10,7 +10,7 @@ import (
 	"github.com/mattn/go-isatty"
 
 	"github.com/cggarvey/glass/config"
-	daemon "github.com/cggarvey/glass/glass-daemon"
+	daemon "github.com/cggarvey/glass/daemon"
 	"github.com/cggarvey/glass/vcs"
 )
 
