@@ -8,10 +8,9 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/hashicorp/errwrap"
 	"github.com/mattn/go-isatty"
-
-	"github.com/cggarvey/glass/config"
-	daemon "github.com/cggarvey/glass/daemon"
-	"github.com/cggarvey/glass/vcs"
+	"github.com/tylerweitzman/glass/config"
+	daemon "github.com/tylerweitzman/glass/glass-daemon"
+	"github.com/tylerweitzman/glass/vcs"
 )
 
 type Push struct {

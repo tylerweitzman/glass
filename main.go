@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cggarvey/glass/command"
+	"github.com/tylerweitzman/glass/command"
 	"github.com/codegangsta/cli"
 )
 

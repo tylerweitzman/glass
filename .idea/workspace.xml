@@ -140,7 +140,7 @@
     </findStrings>
     <replaceStrings>
       <replace />
-      <replace>github.com/cggarvey</replace>
+      <replace>github.com/tylerweitzman</replace>
     </replaceStrings>
   </component>
   <component name="GOROOT" path="/usr/local/Cellar/go/1.9.3/libexec" />

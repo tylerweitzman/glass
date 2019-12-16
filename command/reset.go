@@ -7,7 +7,7 @@ import (
 	"github.com/codegangsta/cli"
 	"github.com/hashicorp/errwrap"
 
-	"github.com/cggarvey/glass/vcs"
+	"github.com/tylerweitzman/glass/vcs"
 )
 
 type Reset struct {

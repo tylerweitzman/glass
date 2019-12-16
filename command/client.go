@@ -9,9 +9,8 @@ import (
 	"net/http"
 	"net/url"
 	"strings"
-
+	"github.com/tylerweitzman/glass-daemon"
 	"github.com/hashicorp/errwrap"
-	"github.com/cggarvey/daemon"
 
 	)
 

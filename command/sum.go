@@ -10,7 +10,7 @@ import (
 	"github.com/hashicorp/errwrap"
 	"github.com/mattn/go-isatty"
 
-	"github.com/cggarvey/glass/vcs"
+	"github.com/tylerweitzman/glass/vcs"
 )
 
 type Sum struct {
