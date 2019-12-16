@@ -7,8 +7,8 @@ import (
 	"time"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/cggarvey/glass/config"
-	"github.com/cggarvey/snow/monitor"
+	"github.com/tylerweitzman/glass/config"
+	"github.com/tylerweitzman/snow/monitor"
 )
 
 type timerData struct {
