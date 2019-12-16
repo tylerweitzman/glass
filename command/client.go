@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"net/url"
 	"strings"
-	"github.com/tylerweitzman/glass/glass-daemon"
+	daemon "github.com/tylerweitzman/glass/glass-daemon"
 	"github.com/hashicorp/errwrap"
 
 	)
