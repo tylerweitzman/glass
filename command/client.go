@@ -10,7 +10,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/cggarvey/glass-daemon"
+	"github.com/tylerweitzman/glass-daemon"
 	"github.com/hashicorp/errwrap"
 )
 
