@@ -5,7 +5,7 @@ import (
 	"os"
 	"os/exec"
 
-	"github.com/codegangsta/cli"
+	"github.com/tylerweitzman/cli"
 	"github.com/hashicorp/errwrap"
 )
 

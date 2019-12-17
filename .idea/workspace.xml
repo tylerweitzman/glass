@@ -476,7 +476,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_vendor/github.com/kardianos/service/service_darwin.go" />
+    <entry file="file://$PROJECT_DIR$/_vendor/github.com/tylerweitzman/service/service_darwin.go" />
     <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/gccgo.go" />
     <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_unix.go" />
     <entry file="file://$PROJECT_DIR$/_vendor/golang.org/x/sys/unix/syscall_bsd.go" />

@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/kardianos/service"
+	"github.com/tylerweitzman/service"
 )
 
 // give some more extensive information about the nature

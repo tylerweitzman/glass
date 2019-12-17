@@ -5,7 +5,7 @@ import (
 	"os"
 
 	"github.com/tylerweitzman/glass/command"
-	"github.com/codegangsta/cli"
+	"github.com/tylerweitzman/cli"
 )
 //s
 type Command interface {
@@ -22,10 +22,10 @@ var Build = "gobuild"
 
 func main() {
 	app := cli.NewApp()
-	app.Author = "Ad van der Veer"
-	app.Email = "advanderveer@gmail.com"
-	app.Name = "Timeglass"
-	app.Usage = "Automated time tracking for code repositories"
+	app.Author = "Tyler Weitzman fork"
+	app.Email = "tylerweitzman@gmail.com"
+	app.Name = "Glass"
+	app.Usage = "Glass Git Tracking"
 	app.Version = fmt.Sprintf("%s (%s)", Version, Build)
 
 	app.Flags = []cli.Flag{
@@ -48,6 +48,7 @@ func main() {
 		command.NewPull(),      //pull notes branch from remote
 		command.NewPunch(),     //persist time measurement to current HEAD commit
 		command.NewSum(),       //sum total time of each commit given
+		command.NewDaemon(),
 	}
 
 	for _, c := range cmds {

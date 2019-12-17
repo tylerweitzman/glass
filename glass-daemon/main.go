@@ -8,7 +8,7 @@ import (
 	"runtime"
 
 	"github.com/hashicorp/errwrap"
-	"github.com/kardianos/service"
+	"github.com/tylerweitzman/service"
 )
 
 var Version = "0.0.0"
@@ -52,6 +52,79 @@ func (p *daemon) Stop(s service.Service) error {
 func (p *daemon) run() error {
 	return p.server.Start()
 }
+
+func SimulateMain(command string) {
+
+	//setup logging to a file
+	l, err := NewLogger(os.Stdout)
+	if err != nil {
+		log.Fatalf("Failed to create logger: %s", err)
+	}
+
+	log.SetOutput(l)
+	defer l.Close()
+	
+	//initialize service
+	conf := &service.Config{
+		Name:        "panda-glass",
+		DisplayName: "panda-glass",
+		Description: "Helper for panda git commits linting metadata",
+		Arguments: []string{"daemon"},
+		Option:      map[string]interface{}{},
+	}
+
+	if runtime.GOOS == "darwin" {
+		conf.Name = "com.tylerweitzman.panda-glass"
+		//let's addssssssss
+		// results in a automated installer that
+		// has some serious usability issues
+		conf.Option["UserService"] = true
+		conf.Option["RunAtLoad"] = true
+		pathOut, pathErr, logCreateError := DarwinTimeglassLogPaths();
+		if logCreateError == nil {
+			conf.Option["LogOutput"] = false
+			conf.Option["StandardOutPath"] = pathOut
+			conf.Option["StandardErrorPath"] = pathErr
+			conf.Option["StdErrPath"] = pathErr
+		} else {
+			log.Printf("Daemon could not create log paths '%s'", err);
+		}
+	} else if runtime.GOOS == "windows" {
+
+		//WATCH OUT: timeglass has a windows installer
+		//that takes care of installing and starting service.
+		//in addition to the command line
+
+		conf.Name = "Panda-Glass" //windows style
+	}
+
+	d := &daemon{}
+	s, err := service.New(d, conf)
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	//handle service controls
+	if len(command) > 0 {
+		err = service.Control(s, command)
+		if err != nil {
+			ReportServiceControlErrors(err)
+		}
+		return
+	}
+
+	//start daemon
+	log.Printf("Daemon launched, writing logs to '%s'", l.Path())
+	defer func() {
+		log.Printf("Daemon terminated\n\n")
+	}()
+
+	err = s.Run()
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
 
 func main() {
 	flag.Parse()

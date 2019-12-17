@@ -2,11 +2,9 @@ package command
 
 import (
 	"fmt"
-	"os"
-	"os/exec"
-
-	"github.com/codegangsta/cli"
-	"github.com/hashicorp/errwrap"
+	"log"
+	"github.com/tylerweitzman/cli"
+	daemon "github.com/tylerweitzman/glass/glass-daemon"
 )
 
 type Install struct {
@@ -41,25 +39,32 @@ func (c *Install) Run(ctx *cli.Context) error {
 	c.Println("Installing the Timeglass background service...")
 
 	//attempt to install
-	cmd := exec.Command("glass-daemon", "install")
-	cmd.Stderr = os.Stderr
-	cmd.Stdout = os.Stdout
-
-	err := cmd.Run()
-	if err != nil {
-		return errwrap.Wrapf(fmt.Sprintf("Failed to install Daemon: {{err}}"), err)
-	}
-
-	c.Println("Starting the Timeglass background service...")
+	log.Printf("Installing Daemon")
+	daemon.SimulateMain("install");
 
 	//attempt to start
-	cmd = exec.Command("glass-daemon", "start")
-	cmd.Stderr = os.Stderr
-	cmd.Stdout = os.Stdout
-	err = cmd.Run()
-	if err != nil {
-		return errwrap.Wrapf(fmt.Sprintf("Failed to start Daemon: {{err}}"), err)
-	}
+	log.Printf("Loadiong Daemon")
+	daemon.SimulateMain("start");
+
+	// cmd := exec.Command("glass-daemon", "install")
+	// cmd.Stderr = os.Stderr
+	// cmd.Stdout = os.Stdout
+
+	// err := cmd.Run()
+	// if err != nil {
+	// 	return errwrap.Wrapf(fmt.Sprintf("Failed to install Daemon: {{err}}"), err)
+	// }
+
+	// c.Println("Starting the Timeglass background service...")
+
+	// //attempt to start
+	// cmd = exec.Command("glass-daemon", "start")
+	// cmd.Stderr = os.Stderr
+	// cmd.Stdout = os.Stdout
+	// err = cmd.Run()
+	// if err != nil {
+	// 	return errwrap.Wrapf(fmt.Sprintf("Failed to start Daemon: {{err}}"), err)
+	// }
 
 	c.Println("Done!")
 	return nil

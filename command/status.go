@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/codegangsta/cli"
+	"github.com/tylerweitzman/cli"
 	"github.com/hashicorp/errwrap"
 	"github.com/tylerweitzman/glass/config"
 	daemon "github.com/tylerweitzman/glass/glass-daemon"

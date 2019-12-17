@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/codegangsta/cli"
+	"github.com/tylerweitzman/cli"
 	"github.com/hashicorp/errwrap"
 	"github.com/mattn/go-isatty"
 

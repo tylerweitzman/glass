@@ -29,7 +29,7 @@ func SystemTimeglassPath() (string, error) {
 		if(err!=nil) {
 			return "", err
 		}
-		return filepath.Join(home, "Library", "Timeglass"), nil
+		return filepath.Join(home, "Library", "PandaGlassHelper"), nil
 	} else if runtime.GOOS == "linux" {
 		return filepath.Join("/var/lib", "timeglass"), nil
 	}
