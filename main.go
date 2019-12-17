@@ -7,7 +7,7 @@ import (
 	"github.com/tylerweitzman/glass/command"
 	"github.com/codegangsta/cli"
 )
-
+//s
 type Command interface {
 	Name() string
 	Description() string

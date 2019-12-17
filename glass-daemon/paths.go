@@ -25,7 +25,10 @@ func SystemTimeglassPath() (string, error) {
 		return "", fmt.Errorf("Expected environmnet variable 'PROGRAMDATA' or 'ALLUSERPROFILE'")
 	} else if runtime.GOOS == "darwin" {
 		//osx we can actually create user specific services, and as such, store data for the user specifically
-		home, _ := os.UserHomeDir()
+		home, err := os.UserHomeDir()
+		if(err!=nil) {
+			return "", err
+		}
 		return filepath.Join(home, "Library", "Timeglass"), nil
 	} else if runtime.GOOS == "linux" {
 		return filepath.Join("/var/lib", "timeglass"), nil
@@ -46,4 +49,19 @@ func SystemTimeglassPathCreateIfNotExist() (string, error) {
 	}
 
 	return path, nil
+}
+
+func DarwinTimeglassLogPaths() (string, string, error) {
+	if runtime.GOOS == "windows" {
+		return "", "", fmt.Errorf("Expected Darwin Env")
+	} else if runtime.GOOS == "darwin" {
+		path, err := SystemTimeglassPath();
+		if err != nil {
+			return "", "", err
+		}
+		return filepath.Join(path, "launch-out.log"), filepath.Join(path, "launch-err.log"), nil
+	} else if runtime.GOOS == "linux" {
+		return "", "", fmt.Errorf("Expected Darwin Env")
+	}
+	return "", "", fmt.Errorf("Operating system is not yet supported")
 }

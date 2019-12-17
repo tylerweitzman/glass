@@ -75,12 +75,21 @@ func main() {
 
 	if runtime.GOOS == "darwin" {
 		conf.Name = "com.timeglass.glass-daemon"
-
-		// @todo technically this is possible but
+		//let's addssssssss
 		// results in a automated installer that
 		// has some serious usability issues
 		conf.Option["UserService"] = true
 		conf.Option["RunAtLoad"] = true
+		pathOut, pathErr, logCreateError := DarwinTimeglassLogPaths();
+		if logCreateError == nil {
+			log.Printf("Daemon created out path '%s' and err path '%s'", pathOut, pathErr);
+			conf.Option["LogOutput"] = false
+			conf.Option["StandardOutPath"] = pathOut
+			conf.Option["StandardErrorPath"] = pathErr
+			conf.Option["StdErrPath"] = pathErr
+		} else {
+			log.Printf("Daemon could not create log paths '%s'", err);
+		}
 	} else if runtime.GOOS == "windows" {
 
 		//WATCH OUT: timeglass has a windows installer
