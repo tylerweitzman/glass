@@ -76,7 +76,7 @@ func (c *Push) Run(ctx *cli.Context) error {
 		}
 
 		//configuration can explicitly request not to push time data automatically
-		//on hook usage
+		//on hook usage.
 		if !conf.AutoPush {
 			return nil
 		}
