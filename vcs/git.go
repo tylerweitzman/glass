@@ -36,13 +36,13 @@ esac
 
 var PostCommitTmpl = template.Must(template.New("name").Parse(`#!/bin/sh
 #persist (punch) to newly created commit and reset the timer
-glass -s status -t "{{"{{"}}.{{"}}"}}" | glass punch
+glass -s status -t "{{"{{"}}.{{"}}"}}" | glass -s punch
 glass reset
 `))
 
 var PrePushTmpl = template.Must(template.New("name").Parse(`#!/bin/sh
 #push time data
-glass push $1
+glass -s push $1
 `))
 
 type gitTimeData struct {
