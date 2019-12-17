@@ -79,7 +79,8 @@ func main() {
 		// @todo technically this is possible but
 		// results in a automated installer that
 		// has some serious usability issues
-		// conf.Option["UserService"] = true
+		conf.Option["UserService"] = true
+		conf.Option["RunAtLoad"] = true
 	} else if runtime.GOOS == "windows" {
 
 		//WATCH OUT: timeglass has a windows installer
