@@ -13,7 +13,7 @@ import (
 	"github.com/imdario/mergo"
 )
 
-var confFilename = "timeglass.json"
+var confFilename = "glass.json"
 
 type MBU time.Duration
 

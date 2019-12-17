@@ -55,7 +55,7 @@ __Currently Supported:__
 5. Verify that the time was indeed registered correctly by looking at your commit log:
 
   ```sh
-  git log -n 1 --show-notes=time-spent
+  git log -n 1 --show-notes=metadata
   ```
 
 ## What's Next?

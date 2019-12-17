@@ -1,5 +1,5 @@
 # Configuration
-Timeglass can be configured by creating a `timeglass.json` file in the root of the repository you are tracking. The following example shows all options with their default configuration:
+Timeglass can be configured by creating a `glass.json` file in the root of the repository you are tracking. The following example shows all options with their default configuration:
 
 ```json
 {
@@ -9,7 +9,7 @@ Timeglass can be configured by creating a `timeglass.json` file in the root of t
 }
 ```
 
-Alternatively, you can place a `timeglass.json` file with the same structure into any of the following locations to provide default configuration for all projects on the system:
+Alternatively, you can place a `glass.json` file with the same structure into any of the following locations to provide default configuration for all projects on the system:
 
 - __OSX:__ /Library/Timeglass
 - __Linux:__ /var/lib/timeglass

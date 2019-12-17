@@ -19,7 +19,7 @@ func setupTestProject(t *testing.T) string {
 	err = os.Mkdir(pdir, 0755)
 	assert.NoError(t, err)
 
-	err = ioutil.WriteFile(filepath.Join(pdir, "timeglass.json"), []byte(`{"mbu": "5ms"}`), 0755)
+	err = ioutil.WriteFile(filepath.Join(pdir, "glass.json"), []byte(`{"mbu": "5ms"}`), 0755)
 	assert.NoError(t, err)
 
 	<-time.After(time.Millisecond * 20)

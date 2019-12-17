@@ -83,7 +83,7 @@ func TestStartTimerDouble(t *testing.T) {
 
 func TestStartTimerFailedConfig(t *testing.T) {
 	dir := setupTestProject(t)
-	writeProjectFile(t, dir, "timeglass.json", fmt.Sprint(`{faulty: json`))
+	writeProjectFile(t, dir, "glass.json", fmt.Sprint(`{faulty: json`))
 
 	timer, err := NewTimer(dir)
 	assert.NoError(t, err)
