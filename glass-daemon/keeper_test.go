@@ -65,7 +65,7 @@ func TestAddRemoveTimer(t *testing.T) {
 	timer, err := NewTimer(pdir)
 	assert.NoError(t, err)
 
-	//add new timer
+	//add new timer.
 	err = k.Add(timer)
 	assert.NoError(t, err)
 	assert.False(t, timer.IsPaused())
