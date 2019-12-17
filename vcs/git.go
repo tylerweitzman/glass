@@ -15,7 +15,7 @@ import (
 	"github.com/hashicorp/errwrap"
 )
 
-var TimeSpentNotesRef = "time-spent"
+var TimeSpentNotesRef = "metadata"
 
 const (
 	TOTAL_PREFIX = "total="
@@ -199,7 +199,7 @@ func (g *Git) Push(remote string, refs string) error {
 	cmd := exec.Command("git", args...)
 	buff := bytes.NewBuffer(nil)
 
-	cmd.Stdout = os.Stdout
+	cmd.Stdout = nil
 	cmd.Stderr = buff
 
 	err := cmd.Run()
