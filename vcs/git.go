@@ -26,7 +26,7 @@ var PrepCommitTmpl = template.Must(template.New("name").Parse(`#!/bin/sh
 # @see http://git-scm.com/docs/githooks#_prepare_commit_msg
 case "$2" in
 message|template) 
-glass="$(git rev-parse --show-toplevel)/scripts";
+glass="$(git rev-parse --show-toplevel)/scripts/glass";
 chmod +x $glass
 	# -m method
 	printf "$(cat $1)$($glass -s status --commit-template)" > "$1" ;;
@@ -38,7 +38,7 @@ esac
 
 var PostCommitTmpl = template.Must(template.New("name").Parse(`#!/bin/sh
 #persist (punch) to newly created commit and reset the timer
-glass="$(git rev-parse --show-toplevel)/scripts";
+glass="$(git rev-parse --show-toplevel)/scripts/glass";
 chmod +x $glass
 $glass -s status -t "{{"{{"}}.{{"}}"}}" | $glass -s punch > /dev/null
 $glass -s reset > /dev/null
@@ -46,7 +46,7 @@ $glass -s reset > /dev/null
 
 var PrePushTmpl = template.Must(template.New("name").Parse(`#!/bin/sh
 #push time data
-glass="$(git rev-parse --show-toplevel)/scripts";
+glass="$(git rev-parse --show-toplevel)/scripts/glass";
 chmod +x $glass
 $glass -s push $1 > /dev/null
 `))
