@@ -75,8 +75,7 @@ func main() {
 
 	if runtime.GOOS == "darwin" {
 		conf.Name = "com.timeglass.glass-daemon"
-
-		// @todo technically this is possible but
+		//let's adds
 		// results in a automated installer that
 		// has some serious usability issues
 		conf.Option["UserService"] = true
