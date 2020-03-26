@@ -3,6 +3,8 @@ package command
 import (
 	"fmt"
 	"os"
+	"log"
+	"io/ioutil"
 
 	"github.com/tylerweitzman/cli"
 	"github.com/hashicorp/errwrap"
@@ -40,6 +42,9 @@ func (c *Start) Action() func(ctx *cli.Context) {
 
 func (c *Start) Run(ctx *cli.Context) error {
 	dir, err := os.Getwd()
+	if ctx.GlobalBool("silent") {
+			c.Logger = log.New(ioutil.Discard, "", 0)
+		}
 	if err != nil {
 		return errwrap.Wrapf("Failed to fetch current working dir: {{err}}", err)
 	}

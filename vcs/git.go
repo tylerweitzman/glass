@@ -195,7 +195,7 @@ func (g *Git) Push(remote string, refs string) error {
 		return nil
 	}
 
-	args := []string{"push", remote, fmt.Sprintf("refs/notes/%s", TimeSpentNotesRef)}
+	args := []string{"push", "-f", remote, fmt.Sprintf("refs/notes/%s", TimeSpentNotesRef)}
 	cmd := exec.Command("git", args...)
 	buff := bytes.NewBuffer(nil)
 

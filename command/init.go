@@ -3,7 +3,8 @@ package command
 import (
 	"fmt"
 	"os"
-
+	"log"
+	"io/ioutil"
 	"github.com/tylerweitzman/cli"
 	"github.com/hashicorp/errwrap"
 
@@ -39,7 +40,14 @@ func (c *Init) Action() func(ctx *cli.Context) {
 }
 
 func (c *Init) Run(ctx *cli.Context) error {
-	c.Println("Writing version control hooks...")
+	verbose := !ctx.GlobalBool("silent")
+	if !verbose {
+		c.Logger = log.New(ioutil.Discard, "", 0)
+	}
+	if verbose {
+		c.Println("Writing version control hooks...")
+	}
+
 	dir, err := os.Getwd()
 	if err != nil {
 		return errwrap.Wrapf("Failed to fetch current working dir: {{err}}", err)
@@ -63,6 +71,7 @@ func (c *Init) Run(ctx *cli.Context) error {
 
 	err = NewPull().Run(ctx)
 	if err != nil {
+		return nil
 		if errwrap.Contains(err, vcs.ErrNoRemote.Error()) {
 			c.Println("No remote found, skipping pull")
 		} else {

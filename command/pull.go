@@ -1,6 +1,9 @@
 package command
 
 import (
+	
+	"io/ioutil"
+	"log"
 	"fmt"
 	"os"
 
@@ -40,6 +43,9 @@ func (c *Pull) Action() func(ctx *cli.Context) {
 
 func (c *Pull) Run(ctx *cli.Context) error {
 	dir, err := os.Getwd()
+	if ctx.GlobalBool("silent") {
+		c.Logger = log.New(ioutil.Discard, "", 0)
+	}
 	if err != nil {
 		return errwrap.Wrapf("Failed to fetch current working dir: {{err}}", err)
 	}
@@ -64,7 +70,8 @@ func (c *Pull) Run(ctx *cli.Context) error {
 			return nil
 		}
 
-		return errwrap.Wrapf("Failed to pull time data: {{err}}", err)
+
+		// return errwrap.Wrapf("Failed to pull time data: {{err}}", err)
 	}
 
 	c.Println("Time data was pulled successfully")

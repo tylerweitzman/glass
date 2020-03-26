@@ -3,7 +3,6 @@ package main
 import (
 	"fmt"
 	"os"
-
 	"github.com/tylerweitzman/glass/command"
 	"github.com/tylerweitzman/cli"
 )

@@ -36,6 +36,6 @@ func (c *Daemon) Action() func(ctx *cli.Context) {
 
 func (c *Daemon) Run(ctx *cli.Context) error {
 	c.Println("Running Daemon Server")
-	daemon.SimulateMain("")
+	daemon.SimulateMain("", ctx)
 	return nil
 }

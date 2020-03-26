@@ -6,9 +6,9 @@ import (
 	"log"
 	"os"
 	"runtime"
-
 	"github.com/hashicorp/errwrap"
 	"github.com/tylerweitzman/service"
+	"github.com/tylerweitzman/cli"
 )
 
 var Version = "0.0.0"
@@ -53,10 +53,15 @@ func (p *daemon) run() error {
 	return p.server.Start()
 }
 
-func SimulateMain(command string) {
+func SimulateMain(command string, ctx *cli.Context) {
 
 	//setup logging to a file
-	l, err := NewLogger(os.Stdout)
+	silent := ctx.GlobalBool("silent")
+	var out = os.Stdout
+	if silent {
+		out = nil
+	}
+	l, err := NewLogger(out)
 	if err != nil {
 		log.Fatalf("Failed to create logger: %s", err)
 	}
@@ -107,7 +112,7 @@ func SimulateMain(command string) {
 	//handle service controls
 	if len(command) > 0 {
 		err = service.Control(s, command)
-		if err != nil {
+		if err != nil && !silent {
 			ReportServiceControlErrors(err)
 		}
 		return

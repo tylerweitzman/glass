@@ -84,10 +84,11 @@ func (c *Sum) Run(ctx *cli.Context) error {
 				continue
 			}
 
-			return errwrap.Wrapf(fmt.Sprintf("Failed to show time notes for '%s': {{err}}", c), err)
-		}
+			// return errwrap.Wrapf(fmt.Sprintf("Failed to show time notes for '%s': {{err}}", c), err)
+		} else {
 
-		list = append(list, data)
+			list = append(list, data)
+		}
 	}
 
 	//reduce to output

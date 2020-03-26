@@ -2,7 +2,6 @@ package command
 
 import (
 	"fmt"
-	"log"
 	"github.com/tylerweitzman/cli"
 	daemon "github.com/tylerweitzman/glass/glass-daemon"
 )
@@ -36,15 +35,14 @@ func (c *Install) Action() func(ctx *cli.Context) {
 }
 
 func (c *Install) Run(ctx *cli.Context) error {
-	c.Println("Installing the Timeglass background service...")
 
 	//attempt to install
-	log.Printf("Installing Daemon")
-	daemon.SimulateMain("install");
+	c.Println("Installing Daemon")
+	daemon.SimulateMain("install", ctx);
 
 	//attempt to start
-	log.Printf("Loadiong Daemon")
-	daemon.SimulateMain("start");
+	c.Println("Loading Daemon")
+	daemon.SimulateMain("start", ctx);
 
 	// cmd := exec.Command("glass-daemon", "install")
 	// cmd.Stderr = os.Stderr
